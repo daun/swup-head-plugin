@@ -1,6 +1,6 @@
 {
   "name": "@daun/swup-head-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Swup plugin for replacing contents of head tag — fork with additional options.",
   "main": "lib/index.js",
   "scripts": {

@@ -10,13 +10,13 @@ Primary reason for this can be usage of different style files included with a `l
 This plugin can be installed with npm
 
 ```bash
-npm install @swup/head-plugin
+npm install @daun/swup-head-plugin
 ```
 
 and included with import
 
 ```javascript
-import SwupHeadPlugin from '@swup/head-plugin';
+import SwupHeadPlugin from '@daun/swup-head-plugin';
 ```
 
 or included from the dist folder
