@@ -1,23 +1,34 @@
 {
-  "name": "@swup/head-plugin",
-  "version": "1.0.2",
-  "description": "Swup plugin for replacing contents of head tag.",
+  "name": "@daun/swup-head-plugin",
+  "version": "1.1.0",
+  "description": "Swup plugin for replacing contents of head tag — fork with additional options.",
   "main": "lib/index.js",
   "scripts": {
     "compile": "babel --presets es2015,stage-0 -d lib/ src/",
     "build": "webpack-cli",
     "prepublish": "npm run compile && npm run build"
   },
-  "author": {
-    "name": "Georgy Marchuk",
-    "email": "gmarcuk@gmail.com",
-    "url": "https://gmrchk.com/"
-  },
+  "author": "Philipp Daun <daun@daun.ltd>",
+  "contributors": [
+    {
+      "name": "Georgy Marchuk",
+      "email": "gmarcuk@gmail.com",
+      "url": "https://gmrchk.com/"
+    }
+  ],
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.daun.ltd",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/swup/head-plugin.git"
+    "url": "https://github.com/daun/swup-head-plugin.git"
   },
+  "bugs": {
+    "url": "https://github.com/daun/swup-head-plugin/issues"
+  },
+  "homepage": "https://github.com/daun/swup-head-plugin",
   "devDependencies": {
     "@swup/prettier-config": "^1.0.0",
     "@swup/webpack-config": "^0.1.2",
